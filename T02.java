@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T02{
+public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -38,7 +38,10 @@ public class T02{
                 }
             }
         }
-        System.out.println(isbn + "|" + judulbuku + "|" + penulisbuku + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargabuku + "|" + minimummargin + "|" + stok + "|" + rating + "|" + kategoribuku);
+        System.out.println(isbn + "|" + judulbuku + "|" + penulisbuku + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargabuku + "|" + minimummargin + "|" + stok + "|" + toFixed(rating,1) + "|" + kategoribuku);
+    }
+    
+    private static String toFixed(double value, int digits) {
+        return String.format("%." + digits + "f", value);
     }
 }
-
