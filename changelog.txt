@@ -2,3 +2,4 @@ Sudah menyelesaikan tugas T02
 Sudah memperbaiki output
 Sudah memperbaiki declare
 Sudah memperbaiki assign
+Sudah memperbaiki assign 2

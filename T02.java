@@ -26,15 +26,15 @@ public class T02 {
             kategoribuku = "Best Pick";
         } else {
             if (rating >= 4.5) {
-                kategoribuku = "must read";
+                kategoribuku = "Must Read";
             } else {
                 if (rating >= 4.0) {
-                    kategoribuku = "recommended";
+                    kategoribuku = "Recommended";
                 } else {
                     if (rating >= 3.0) {
-                        kategoribuku = "average";
+                        kategoribuku = "Average";
                     } else {
-                        kategoribuku = "low";
+                        kategoribuku = "Low";
                     }
                 }
             }
