@@ -23,7 +23,7 @@ public class T02 {
         stok = Integer.parseInt(input.nextLine());
         rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
-            kategoribuku = "best pick";
+            kategoribuku = "Best Pick";
         } else {
             if (rating >= 4.5) {
                 kategoribuku = "must read";
